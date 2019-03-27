@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<p1:oadrPayload xmlns:p1="http://openadr.org/oadr-2.0b/2012/07">
+	<p1:oadrSignedObject>
+		<p1:oadrUpdateReport
+			xmlns:p3="http://docs.oasis-open.org/ns/energyinterop/201110"
+			p3:schemaVersion="2.0b"
+			xmlns:p2="http://docs.oasis-open.org/ns/energyinterop/201110/payloads">
+			<p2:requestID>MIR_REQ_ID</p2:requestID>
+			<p1:oadrReport xmlns:p3="urn:ietf:params:xml:ns:icalendar-2.0:stream"
+				xmlns:p4="http://docs.oasis-open.org/ns/energyinterop/201110">
+				<p3:intervals xmlns:p4="http://docs.oasis-open.org/ns/energyinterop/201110">
+					<p4:interval xmlns:p5="urn:ietf:params:xml:ns:icalendar-2.0">
+						<p5:dtstart>
+							<p5:date-time>2018-10-19T02:13:14Z</p5:date-time>
+						</p5:dtstart>
+						<p5:duration>
+							<p5:duration>PT1S</p5:duration>
+						</p5:duration>
+						<p1:oadrReportPayload>
+							<p4:rID>CLIENT_EMA1</p4:rID>
+							<p4:confidence>100</p4:confidence>
+							<p4:accuracy>100</p4:accuracy>
+							<p4:payloadFloat>
+								<p4:value>400</p4:value>
+
+							</p4:payloadFloat>
+							<p1:oadrDataQuality>Quality Good - Non Specific</p1:oadrDataQuality>
+						</p1:oadrReportPayload>
+					</p4:interval>
+				</p3:intervals>
+				<p4:reportRequestID>MIR_REPORT_REQ_ID</p4:reportRequestID>
+				<p4:reportSpecifierID>MIR_REPORT_SPEC_ID</p4:reportSpecifierID>
+				<p4:reportName>TELEMETRY_USAGE</p4:reportName>
+				<p4:createdDateTime>2018-10-18T17:13:17Z</p4:createdDateTime>
+			</p1:oadrReport>
+			<p3:venID>0a0f2f61e2e4d1989397</p3:venID>
+		</p1:oadrUpdateReport>
+	</p1:oadrSignedObject>
+</p1:oadrPayload>

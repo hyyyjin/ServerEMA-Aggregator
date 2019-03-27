@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+    <p1:oadrPayload
+        xmlns:p1="http://openadr.org/oadr-2.0b/2012/07">
+        <p1:oadrSignedObject>
+            <p1:oadrCreatedEvent
+                xmlns:p3="http://docs.oasis-open.org/ns/energyinterop/201110"
+                p3:schemaVersion="2.0b"
+                xmlns:p2="http://docs.oasis-open.org/ns/energyinterop/201110/payloads">
+                <p2:eiCreatedEvent
+                    xmlns:p3="http://docs.oasis-open.org/ns/energyinterop/201110">
+                    <p3:eiResponse>
+                        <p3:responseCode>200</p3:responseCode>
+                        <p3:responseDescription>OK</p3:responseDescription>
+                        <p2:requestID/>
+                        </p3:eiResponse>
+                    <p3:eventResponses>
+                        <p3:eventResponse>
+                            <p3:responseCode>200</p3:responseCode>
+                            <p3:responseDescription>OK</p3:responseDescription>
+                            <p2:requestID>c38d670f85f6e7ef2cda</p2:requestID>
+                            <p3:qualifiedEventID>
+                                <p3:eventID>df9cb219639b51b95e0d</p3:eventID>
+                                <p3:modificationNumber>3</p3:modificationNumber>
+                                </p3:qualifiedEventID>
+                            <p3:optType>optIn</p3:optType>
+                            </p3:eventResponse>
+                        </p3:eventResponses>
+                    <p3:venID> 0a0f2f61e2e4d1989397</p3:venID>
+                    </p2:eiCreatedEvent>
+                </p1:oadrCreatedEvent>
+            </p1:oadrSignedObject>
+        </p1:oadrPayload>

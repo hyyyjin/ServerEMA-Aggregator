@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <oadrPayload xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://openadr.org/oadr-2.0b/2012/07">
+        <oadrSignedObject>
+            <oadrUpdateReport d3p1:schemaVersion="2.0b" xmlns:d3p1="http://docs.oasis-open.org/ns/energyinterop/201110">
+                <requestID xmlns="http://docs.oasis-open.org/ns/energyinterop/201110/payloads">2bf78ea11b</requestID>
+                <oadrReport>
+                    <d3p1:reportRequestID>10f8df64623771318528</d3p1:reportRequestID>
+                    <d3p1:reportSpecifierID>789ed6cd4e_telemetry_usage</d3p1:reportSpecifierID>
+                    <d3p1:reportName>TELEMETRY_USAGE</d3p1:reportName>
+                    <d3p1:createdDateTime>2018-08-13T03:54:40.8375063Z</d3p1:createdDateTime>
+                    </oadrReport>
+                <d3p1:venID>72f8bbdcc0e87e6417de</d3p1:venID>
+                </oadrUpdateReport>
+            </oadrSignedObject>
+        </oadrPayload>

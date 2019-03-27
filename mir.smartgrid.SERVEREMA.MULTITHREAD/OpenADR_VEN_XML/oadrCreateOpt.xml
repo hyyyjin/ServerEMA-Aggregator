@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<oadrPayload
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+        xmlns="http://openadr.org/oadr-2.0b/2012/07">
+        <oadrSignedObject>
+            <oadrCreateOpt
+                d3p1:schemaVersion="2.0b"
+                xmlns:d3p1="http://docs.oasis-open.org/ns/energyinterop/201110">
+                <d3p1:optID>4e99db01c1</d3p1:optID>
+                <d3p1:optType>optIn</d3p1:optType>
+                <d3p1:optReason>economic</d3p1:optReason>
+                <marketContext xmlns="http://docs.oasis-open.org/ns/emix/2011/06">MarketContext</marketContext>
+                <d3p1:venID>72f8bbdcc0e87e6417de</d3p1:venID>
+                <vavailability xmlns="urn:ietf:params:xml:ns:icalendar-2.0">
+                    <components>
+                        <available>
+                            <properties>
+                                <dtstart>
+                                    <date-time>2018-08-13T03:51:00Z</date-time>
+                                    </dtstart>
+                                <duration>
+                                    <duration>PT1H</duration>
+                                    </duration>
+                                </properties>
+                            </available>
+                        </components>
+                    </vavailability>
+                <d3p1:createdDateTime>2018-08-13T03:54:28.8354713Z</d3p1:createdDateTime>
+                <requestID xmlns="http://docs.oasis-open.org/ns/energyinterop/201110/payloads">a29dc340ab</requestID>
+                </oadrCreateOpt>
+            </oadrSignedObject>
+</oadrPayload>
